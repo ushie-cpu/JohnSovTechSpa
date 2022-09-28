@@ -1,0 +1,17 @@
+<div>
+    <h2 class="title">people list</h2>
+    <div class="people-wrapper">
+        <div class="people-item" *ngFor="let item of people">
+           <div>
+                <div class="img-contianer">
+                    <img src="../../../assets/images/avata.jpg"  alt="">
+                </div>
+                <p>Name: {{item.name}}</p>
+                <p>Skin Color: {{item.skin_color}}</p>
+                <p>gender : {{item.gender}}</p>
+                <p>height : {{item.height}}</p>
+           </div>
+        </div>
+    </div>
+    
+</div>

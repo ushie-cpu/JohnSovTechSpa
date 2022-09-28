@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    padding: 2%;
+}
+.sub-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.sub-elements{
+    width: 40%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 20px #eee;
+}
+.sub-elements:hover{
+    cursor: pointer;
+}
+.img-contianer{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+img{
+    border-radius: 50%;
+    width: 100%;
+}
+.home-img{
+    width: 50%;;
+}
+.title{
+    margin-left: 8%;
+}

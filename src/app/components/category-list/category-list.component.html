@@ -1,0 +1,6 @@
+<h2 class="title">Jokes category</h2>
+<div [routerLink]="['/category/:id']" class="category-wrapper">
+    <div class="category-item" *ngFor="let item of category">
+        {{item}}
+    </div>
+</div>

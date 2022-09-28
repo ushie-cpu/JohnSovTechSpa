@@ -1,0 +1,22 @@
+.category-wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.category-item{
+    width: 40%;
+    text-align: center;
+    color: #000;
+    font-size: larger;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+.category-item:hover{
+    cursor: pointer;
+}
